@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Lab1.css">
+</head>
+<body>
+    <div class="registration-form">
+        <h1>Форма реєстрації</h1>
+        <form action="https://webhook.site" method="get">
+            <label for="inputName">Ім'я користувача: <sup style="color: red;">*</sup></label> <br>
+            <input type="text" name="inputName" id="inputName" required>
+            <br>
+            <label for="inputSurname">Прізвище користувача:</label> <br>
+            <input type="text" name="inputSurname" id="inputSurname">
+            <br>
+            <label for="inputEmail">Електронна пошта: <sup style="color: red;">*</sup></label> <br>
+            <input type="email" name="inputEmail" id="inputEmail" required>
+            <br>
+            <label for="inputDateBirth">Дата народження:</label> <br>
+            <input type="date" name="inputDateBirth" id="inputDateBirth">
+            <br>
+            <label for="InputGender">Оберіть стать:</label><br>
+            <select name="gender" id="genderSelect">
+                <option value="Nongender">Х</option>
+                <option value="Male">Чоловіча</option>
+                <option value="Female">Жіноча</option>
+            </select>
+            <br>
+            <label for="inputPassword">Пароль: <sup style="color: red;">*</sup></label> <br>
+            <input type="password" name="inputPassword" id="inputPassword" required>
+            <br>
+            <label for="inputConfirmPassword">Підтвердження паролю: <sup style="color: red;">*</sup></label> <br>
+            <input type="password" name="inputConfirmPassword" id="inputConfirmPassword" required>
+            <br><br>
+
+            <button type="submit">Відправити</button>
+        </form>
+    </div>
+</body>
+</html>

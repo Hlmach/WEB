@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    background: #273c51;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+ul li a{
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,37 @@
+table{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    border-collapse: collapse;
+    border: #36b9cc;
+}
+td, th{
+    border: 1px solid gray;
+
+}
+tbody{
+    border: 1px solid gray;
+}
+h2{
+    text-align: center;
+}
+.numDay{
+    background-color:#85bdcc;
+    color: white;
+}
+.date{
+    background-color:#85bdcc;
+    color: white;
+}
+.lecture{
+    background-color: #fffadb;
+}
+.lab{
+    background-color: #c4e5ff;
+}
+.practice{
+    background-color:#e2ffe2;
+}
+.new{
+    background-color: #36b9cc;
+}
