@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.keyboard-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.keyboard {
+    display: grid;
+    gap: 8px;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.key-row {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    gap: 8px;
+}
+
+.key {
+    padding: 1.2em 0;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #888;
+    border-radius: 5px;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.key:hover {
+    background-color: #d0d0d0;
+}
+
+.key:active {
+    background-color: #bbbbbb;
+    transform: scale(0.95);
+}
+
+.key.large {
+    grid-column: span 2;
+}
+
+.key.medium {
+    grid-column: span 1.5;
+}
+
+.key.extra-large {
+    grid-column: span 3;
+}
+
+.key.space {
+    grid-column: span 7;
+}
+
+.key.small {
+    grid-column: span 1;
+}
