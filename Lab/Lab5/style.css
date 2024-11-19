@@ -78,6 +78,7 @@ header nav a {
 .posts {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .post {
