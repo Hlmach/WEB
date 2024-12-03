@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Arial, sans-serif";
+  background-color: #5cb2fe;
+}
+
+.header {
+  background-color: #FF0000;
+  text-align: center;
+  padding: 20px;
+}
+.header__title {
+  color: #00FF00;
+  font-size: 2em;
+}
+
+.card {
+  background-color: #5cb2fe;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+  border: 2px solid #FF0000;
+  border-radius: 10px;
+}
+.card__text {
+  color: #FF0000;
+  font-size: 1.5em;
+}
+.card__image {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.footer {
+  background-color: #00FF00;
+  text-align: center;
+  padding: 10px;
+}
+.footer__text {
+  color: #5cb2fe;
+}/*# sourceMappingURL=main.css.map */
